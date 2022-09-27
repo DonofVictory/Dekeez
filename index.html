@@ -12,27 +12,54 @@
 <body>
 
         <header>
-           <nav class="container">
-            <div>
-                <h2>Dekeez <span>Beauty</span></h2>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="Services.html">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-           </nav>
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Dekeez <span>Beauty</span></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                 
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#" style="color: black;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Services.html" style="color: black;">Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                            About
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#" style="color: white;">About</a></li>
+                            <li><a class="dropdown-item" href="#" style="color: white;">Contact</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </header>
         <main>
            <div class="container">
             <img src="Dekz3.jpg" alt="">
            </div>
            <div class="container">
-            <h3>Welcome To My Page</h3>
+            <h3 style="color: white;">Welcome <span>To</span> <span style="color: white;">My</span> <span>Page</span></h3>
            </div>
-           <button class="btn btn-primary">Click here</button>
         </main>
         <footer>
             <p></p>
