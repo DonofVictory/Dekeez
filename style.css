@@ -4,7 +4,7 @@ body{
     width: 100vw;
 }
 nav{
-    margin-top: 10px;
+    padding-top:10px;
     display: flex;
     justify-content: space-between;
     background:green;
@@ -40,10 +40,10 @@ img{
     height: 300px;
     width: 300px;
     border-radius: 70px;
-    margin-left: 25%
+    margin-left: 10%
 }
 h3{
-    margin-left: 30%;
+    margin-left: 15%;
     margin-top: 20px;
     font-size: 35px;
     font-style: italic;
